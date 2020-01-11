@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036B6C9A23C992DF00940EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6C9923C992DF00940EF8 /* AppDelegate.swift */; };
+		036B6C9C23C992DF00940EF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6C9B23C992DF00940EF8 /* SceneDelegate.swift */; };
+		036B6C9E23C992DF00940EF8 /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6C9D23C992DF00940EF8 /* ShowView.swift */; };
+		036B6CA023C992E100940EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B6C9F23C992E100940EF8 /* Assets.xcassets */; };
+		036B6CA323C992E100940EF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B6CA223C992E100940EF8 /* Preview Assets.xcassets */; };
+		036B6CA623C992E100940EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B6CA423C992E100940EF8 /* LaunchScreen.storyboard */; };
+		036B6CB123C992E100940EF8 /* TVMaze_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6CB023C992E100940EF8 /* TVMaze_SwiftUITests.swift */; };
+		036B6CBC23C9945300940EF8 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6CBB23C9945300940EF8 /* DataModels.swift */; };
+		036B6CBE23C998DC00940EF8 /* TVMazeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6CBD23C998DC00940EF8 /* TVMazeService.swift */; };
+		036B6CC023C99B8A00940EF8 /* SeasonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6CBF23C99B8A00940EF8 /* SeasonsView.swift */; };
+		036B6CC223CA13CE00940EF8 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6CC123CA13CE00940EF8 /* RemoteImage.swift */; };
+		036B6CC423CA2A6800940EF8 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6CC323CA2A6800940EF8 /* EpisodeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036B6CAD23C992E100940EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036B6C8E23C992DF00940EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036B6C9523C992DF00940EF8;
+			remoteInfo = "TVMaze-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036B6C9623C992DF00940EF8 /* TVMaze-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVMaze-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B6C9923C992DF00940EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036B6C9B23C992DF00940EF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		036B6C9D23C992DF00940EF8 /* ShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowView.swift; sourceTree = "<group>"; };
+		036B6C9F23C992E100940EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036B6CA223C992E100940EF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		036B6CA523C992E100940EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036B6CA723C992E100940EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B6CAC23C992E100940EF8 /* TVMaze-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVMaze-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B6CB023C992E100940EF8 /* TVMaze_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMaze_SwiftUITests.swift; sourceTree = "<group>"; };
+		036B6CB223C992E100940EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B6CBB23C9945300940EF8 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		036B6CBD23C998DC00940EF8 /* TVMazeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMazeService.swift; sourceTree = "<group>"; };
+		036B6CBF23C99B8A00940EF8 /* SeasonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsView.swift; sourceTree = "<group>"; };
+		036B6CC123CA13CE00940EF8 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		036B6CC323CA2A6800940EF8 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036B6C9323C992DF00940EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B6CA923C992E100940EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036B6C8D23C992DF00940EF8 = {
+			isa = PBXGroup;
+			children = (
+				036B6C9823C992DF00940EF8 /* TVMaze-SwiftUI */,
+				036B6CAF23C992E100940EF8 /* TVMaze-SwiftUITests */,
+				036B6C9723C992DF00940EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036B6C9723C992DF00940EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036B6C9623C992DF00940EF8 /* TVMaze-SwiftUI.app */,
+				036B6CAC23C992E100940EF8 /* TVMaze-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036B6C9823C992DF00940EF8 /* TVMaze-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				036B6C9923C992DF00940EF8 /* AppDelegate.swift */,
+				036B6C9B23C992DF00940EF8 /* SceneDelegate.swift */,
+				036B6CBD23C998DC00940EF8 /* TVMazeService.swift */,
+				036B6C9D23C992DF00940EF8 /* ShowView.swift */,
+				036B6CBF23C99B8A00940EF8 /* SeasonsView.swift */,
+				036B6CC323CA2A6800940EF8 /* EpisodeView.swift */,
+				036B6CBB23C9945300940EF8 /* DataModels.swift */,
+				036B6CC123CA13CE00940EF8 /* RemoteImage.swift */,
+				036B6C9F23C992E100940EF8 /* Assets.xcassets */,
+				036B6CA423C992E100940EF8 /* LaunchScreen.storyboard */,
+				036B6CA723C992E100940EF8 /* Info.plist */,
+				036B6CA123C992E100940EF8 /* Preview Content */,
+			);
+			path = "TVMaze-SwiftUI";
+			sourceTree = "<group>";
+		};
+		036B6CA123C992E100940EF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				036B6CA223C992E100940EF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		036B6CAF23C992E100940EF8 /* TVMaze-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036B6CB023C992E100940EF8 /* TVMaze_SwiftUITests.swift */,
+				036B6CB223C992E100940EF8 /* Info.plist */,
+			);
+			path = "TVMaze-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036B6C9523C992DF00940EF8 /* TVMaze-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B6CB523C992E100940EF8 /* Build configuration list for PBXNativeTarget "TVMaze-SwiftUI" */;
+			buildPhases = (
+				036B6C9223C992DF00940EF8 /* Sources */,
+				036B6C9323C992DF00940EF8 /* Frameworks */,
+				036B6C9423C992DF00940EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TVMaze-SwiftUI";
+			productName = "TVMaze-SwiftUI";
+			productReference = 036B6C9623C992DF00940EF8 /* TVMaze-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036B6CAB23C992E100940EF8 /* TVMaze-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B6CB823C992E100940EF8 /* Build configuration list for PBXNativeTarget "TVMaze-SwiftUITests" */;
+			buildPhases = (
+				036B6CA823C992E100940EF8 /* Sources */,
+				036B6CA923C992E100940EF8 /* Frameworks */,
+				036B6CAA23C992E100940EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036B6CAE23C992E100940EF8 /* PBXTargetDependency */,
+			);
+			name = "TVMaze-SwiftUITests";
+			productName = "TVMaze-SwiftUITests";
+			productReference = 036B6CAC23C992E100940EF8 /* TVMaze-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036B6C8E23C992DF00940EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = com.josh;
+				TargetAttributes = {
+					036B6C9523C992DF00940EF8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					036B6CAB23C992E100940EF8 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 036B6C9523C992DF00940EF8;
+					};
+				};
+			};
+			buildConfigurationList = 036B6C9123C992DF00940EF8 /* Build configuration list for PBXProject "TVMaze-SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036B6C8D23C992DF00940EF8;
+			productRefGroup = 036B6C9723C992DF00940EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036B6C9523C992DF00940EF8 /* TVMaze-SwiftUI */,
+				036B6CAB23C992E100940EF8 /* TVMaze-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036B6C9423C992DF00940EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B6CA623C992E100940EF8 /* LaunchScreen.storyboard in Resources */,
+				036B6CA323C992E100940EF8 /* Preview Assets.xcassets in Resources */,
+				036B6CA023C992E100940EF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B6CAA23C992E100940EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036B6C9223C992DF00940EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B6CC423CA2A6800940EF8 /* EpisodeView.swift in Sources */,
+				036B6C9A23C992DF00940EF8 /* AppDelegate.swift in Sources */,
+				036B6CBC23C9945300940EF8 /* DataModels.swift in Sources */,
+				036B6CC223CA13CE00940EF8 /* RemoteImage.swift in Sources */,
+				036B6C9C23C992DF00940EF8 /* SceneDelegate.swift in Sources */,
+				036B6CC023C99B8A00940EF8 /* SeasonsView.swift in Sources */,
+				036B6CBE23C998DC00940EF8 /* TVMazeService.swift in Sources */,
+				036B6C9E23C992DF00940EF8 /* ShowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B6CA823C992E100940EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B6CB123C992E100940EF8 /* TVMaze_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036B6CAE23C992E100940EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036B6C9523C992DF00940EF8 /* TVMaze-SwiftUI */;
+			targetProxy = 036B6CAD23C992E100940EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		036B6CA423C992E100940EF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036B6CA523C992E100940EF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036B6CB323C992E100940EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036B6CB423C992E100940EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036B6CB623C992E100940EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TVMaze-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TVMaze-SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "josh.TVMaze-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036B6CB723C992E100940EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TVMaze-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TVMaze-SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "josh.TVMaze-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		036B6CB923C992E100940EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				INFOPLIST_FILE = "TVMaze-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "josh.TVMaze-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVMaze-SwiftUI.app/TVMaze-SwiftUI";
+			};
+			name = Debug;
+		};
+		036B6CBA23C992E100940EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				INFOPLIST_FILE = "TVMaze-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "josh.TVMaze-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVMaze-SwiftUI.app/TVMaze-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036B6C9123C992DF00940EF8 /* Build configuration list for PBXProject "TVMaze-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B6CB323C992E100940EF8 /* Debug */,
+				036B6CB423C992E100940EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B6CB523C992E100940EF8 /* Build configuration list for PBXNativeTarget "TVMaze-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B6CB623C992E100940EF8 /* Debug */,
+				036B6CB723C992E100940EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B6CB823C992E100940EF8 /* Build configuration list for PBXNativeTarget "TVMaze-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B6CB923C992E100940EF8 /* Debug */,
+				036B6CBA23C992E100940EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036B6C8E23C992DF00940EF8 /* Project object */;
+}
